@@ -1,0 +1,17 @@
+{
+    "id": 1,
+    "config": {},
+    "elements": {
+        "body" : {
+            "widgets" : [
+                {
+                    "id": 1,
+                    "active": false,
+                     "type": "",
+                     "rendering"  : {},
+                     "config" : {}  
+                }
+            ]
+        }
+    }
+}
