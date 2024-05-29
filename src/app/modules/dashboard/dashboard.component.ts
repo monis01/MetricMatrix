@@ -12,4 +12,8 @@ import { PodsComponent } from "../../shared/components/pods/pods.component";
 
 export class DashboardComponent {
 
+
+    private initializeGridster(){
+
+    }
 }
