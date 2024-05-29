@@ -39,6 +39,7 @@
 - Apollo client
 - drag-drop
 - signals
+- SSR
 
 ### Global
 - color or theme
@@ -57,3 +58,11 @@
 - Profile
 - share icon
 
+### Next Tasks
+- Add proper font
+- Add base css for html, body
+- Render header (name, search bar, share, profile and menu)
+- Render sidebar component
+- Render widget container component
+- Setup testing 
+- Finalize KPIs
