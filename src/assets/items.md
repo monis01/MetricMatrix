@@ -64,5 +64,5 @@
 - Render header (name, search bar, share, profile and menu)
 - Render sidebar component
 - Render widget container component
-- Setup testing 
 - Finalize KPIs
+- Setup testing 
