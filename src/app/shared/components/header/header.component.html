@@ -1,15 +1,12 @@
 <header>
-    <mat-toolbar>
-        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-          <mat-icon>menu</mat-icon>
-        </button>
+    <mat-toolbar class="header">
         <span>Metric Matrix</span>
         <input id="search" class="search-input"/>
         <span class="example-spacer"></span>
         <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
           <mat-icon>share</mat-icon>
         </button>
-        <img src="" class="profile-icon" [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu"/>
+        <img src="" class="profile" [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu"/>
       </mat-toolbar>
 </header>
 
@@ -27,3 +24,7 @@
     <span>Disable alerts</span>
   </button>
 </mat-menu>
+
+<!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+  <mat-icon>menu</mat-icon>
+</button> -->

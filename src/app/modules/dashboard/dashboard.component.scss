@@ -1,0 +1,16 @@
+.main-container {
+    width: 100%;
+    height: calc(100vh - 5rem);
+    display: flex;
+    .sidebar {
+        width: 6rem;
+        background-color: aqua;
+        height: 100%;
+    }
+
+    .container {
+        width: calc(100% - 6rem);
+        height: 100%;
+    }
+
+}
