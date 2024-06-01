@@ -6,7 +6,7 @@ import { Injectable } from "@angular/core";
 })
 export class HttpService {
 
-    private baseUrl: string = "abc.com/api/v1"; 
+    private baseUrl: string = ""; 
 
     constructor(private httpClient: HttpClient){}
 
