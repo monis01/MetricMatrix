@@ -5,6 +5,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
 import { HttpService } from "../../../core/services/http.service";
 import { HttpClient } from "@angular/common/http";
+import { convertIntoPromise } from "../../utils/general.utils";
 
 
 @Component({
@@ -17,11 +18,11 @@ import { HttpClient } from "@angular/common/http";
 })
 export class HeaderComponent implements OnInit{
     constructor(private httpService: HttpService){}
-    ngOnInit(): void {
-        //     this.httpService.get("https://api.thecatapi.com/v1/images/search?format=json").subscribe((result) => {
-        
-        // })
-      
-        
+    
+    public imagePath!: string ;
+    async ngOnInit(){
+        const promiseValue = await convertIntoPromise(this.httpService.get("https://api.thecatapi.com/v1/images/search?format=json"));
+        this.imagePath = promiseValue[0].url;
+    
     }
 }

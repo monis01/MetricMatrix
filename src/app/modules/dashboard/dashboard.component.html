@@ -1,15 +1,33 @@
-<app-header></app-header>
 <main class="main-container">
     <app-sidebar class="side-bar"></app-sidebar>
-    <div class="container">
-        <gridster [options]="gridsterConfig" class="gridster">
-            <gridster-item  [item]="item"  *ngFor="let item of gridsterItems; trackBy: trackPods">
-                <app-pods></app-pods>
-            </gridster-item>
-        </gridster> 
+    <div class="content-container">
+        <app-header></app-header>
+        <div class="container">
+            <gridster [options]="gridsterConfig" class="gridster">
+                <gridster-item  [item]="item"  *ngFor="let item of gridsterItems; trackBy: trackPods">
+                    <app-pods></app-pods>
+                </gridster-item>
+            </gridster> 
+        </div>
     </div>
 </main>
-<app-footer></app-footer>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <app-header></app-header> -->
+<!-- <main class="main-container">
+    
+    
+</main>
+<app-footer></app-footer> -->
 
 <ng-template #skeletonLoader>
 
@@ -18,4 +36,4 @@
 <ng-template #widgetsLoaded>
     
 </ng-template>
-<!--  -->
+
