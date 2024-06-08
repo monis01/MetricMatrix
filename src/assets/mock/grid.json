@@ -1,7 +1,7 @@
 {
     "fixedRowHeight": 140,
     "margin": 15,
-    "mobileBreakpoint": 640,
+    
     "minCols": 6,
     "maxCols": 6,
     "minRows": 1,
