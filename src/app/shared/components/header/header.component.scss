@@ -1,8 +1,5 @@
-.example-spacer {
-    flex: 1 1 auto;
-}
-
 .header{
+    height: 5rem;
     gap: 2rem;
     border-bottom: 0.1rem solid red;
     .search-input{
@@ -15,4 +12,8 @@
        height: 4rem;
        border-radius: 50%; 
     }
+}
+
+.example-spacer {
+    flex: 1 1 auto;
 }

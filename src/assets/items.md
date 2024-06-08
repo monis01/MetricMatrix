@@ -52,17 +52,34 @@
 ### Side nav
 
 ### Header
-- Name of a company
-- Search icon
+- [Name of a company]
+- [Search icon]
 - Notification
-- Profile
-- share icon
+- [Profile]
+- [share icon]
 
 ### Next Tasks
 ~~Add proper font~~
 ~~Add base css for html, body~~
-- Render header (name, search bar, share, profile and menu)
-- Render sidebar component
-- Render widget container component
+~~Render header (name, search bar, share, profile and menu)~~
+~~Render sidebar component~~
+~~Render widget container component~~
 - Finalize KPIs
 - Setup testing 
+- Widgets design (Card widget)
+~~drag-n-drop library setup~~
+- widget menu
+- widget header
+
+
+### Finalized KPIs
+[Cards]
+- Inbound call today
+    125 (+-)
+- outbound call today
+- Agents logged in
+- Issues resolved
+
+[Charts]
+
+[Table]

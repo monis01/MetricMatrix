@@ -1,0 +1,55 @@
+{
+    "fixedRowHeight": 140,
+    "margin": 15,
+    "mobileBreakpoint": 640,
+    "minCols": 6,
+    "maxCols": 6,
+    "minRows": 1,
+    "maxRows": 100,
+    "maxItemCols": 6,
+    "minItemCols": 1,
+    "maxItemRows": 100,
+    "minItemRows": 1,
+    "minItemArea": 1,
+    "defaultItemCols": 1,
+    "defaultItemRows": 1,
+    "scrollSensitivity": 10,
+    "scrollSpeed": 20,
+    "emptyCellDragMaxCols": 100,
+    "emptyCellDragMaxRows": 100,
+    "draggable": {
+      "delayStart": 100,
+      "enabled": false,
+      "dragHandleClass":"drag-handle",
+      "ignoreContent": true
+    },
+    "resizable": {
+      "enabled": false
+    },
+
+    "ignoreMarginInRow": false,
+    "enableBoundaryControl": false,
+    "swap": false,
+    "pushItems": false,
+    "disablePushOnDrag": true,
+    "disablePushOnResize": true,
+    "pushDirections": {
+      "north": true,
+      "east": true,
+      "south": true,
+      "west": true
+    },
+    "pushResizeItems": false,
+    "disableWindowResize": false,
+    "disableWarnings": false,
+    "scrollToNewItems": true,
+    "useBodyForBreakpoint": true,
+    "ignoreContent": true,
+    "useTransformPositioning": true,
+    "outerMargin": true,
+    "outerMarginTop": 20,
+    "outerMarginRight": 25,
+    "outerMarginLeft": null,
+    "outerMarginBottom": 100
+  }
+

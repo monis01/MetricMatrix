@@ -2,7 +2,11 @@
 <main class="main-container">
     <app-sidebar class="side-bar"></app-sidebar>
     <div class="container">
-        <app-pods></app-pods>
+        <gridster [options]="gridsterConfig" class="gridster">
+            <gridster-item  [item]="item"  *ngFor="let item of gridsterItems; trackBy: trackPods">
+                <app-pods></app-pods>
+            </gridster-item>
+        </gridster> 
     </div>
 </main>
 <app-footer></app-footer>
@@ -14,3 +18,4 @@
 <ng-template #widgetsLoaded>
     
 </ng-template>
+<!--  -->
