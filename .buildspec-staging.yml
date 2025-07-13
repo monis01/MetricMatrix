@@ -1,0 +1,22 @@
+version: 0.2
+env:
+  variables:
+    S3_BUCKET: "staging-build"
+    BUILD_FOLDER: "dist"
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18.19.1
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies.......
+      - npm install
+      - echo "pre_build stage completed"
+  build:
+    commands:
+      - echo Build started on `date`
+      - npm run build:staging
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'dist/blusketch/browser/*'
