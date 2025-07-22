@@ -7,7 +7,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:futureBoard": "node dist/future-board/server/server.mjs"
+    "serve:ssr:futureBoard": "node dist/future-board/server/server.mjs",
+    "build:staging": "ng build -c staging --aot --build-optimizer --output-hashing=all --vendor-chunk --common-chunk --delete-output-path",
+    "serve:staging": "ng serve -c staging"
   },
   "private": true,
   "dependencies": {
